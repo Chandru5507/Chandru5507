@@ -1,0 +1,15 @@
+#include <stdio.h>
+void main()
+{
+    int score;
+    printf("enter the score ");
+    scanf("%d",&score);
+    if(score>=40&&score<=100)
+    {
+        printf("pass");
+    }
+    else if(score>=1&&score<=39)
+    {  
+        printf("fail");
+    }
+}
