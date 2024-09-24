@@ -1,0 +1,17 @@
+#include <stdio.h>
+void main()
+{
+    int age;
+    printf("enter the age");
+    scanf("%d",&age);
+    if(age<=1 && age>=18)
+    printf("discount 20percentage");
+    
+    else if(age<=18 && age>=60)
+    printf("discount 10percentage");
+    
+    else 
+    printf("discount 30percentage");
+     
+}
+    
