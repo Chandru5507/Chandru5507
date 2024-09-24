@@ -1,0 +1,17 @@
+#include <stdio.h>
+void main()
+{
+    int A,B,C;
+    printf("enter the A value");
+    scanf("%d",&A);
+    printf("enter the B value");
+    scanf("%d",&B);
+    printf("enter the C value");
+    scanf("%d",&C);
+    if(A>B)
+    printf("A is bigger");
+    else if(B>C)
+    printf(" B is bigger");
+    else
+    printf("C is bigger");
+}
